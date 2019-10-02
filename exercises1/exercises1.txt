@@ -1,0 +1,22 @@
+Exercises:
+
+1. Write a program to prompt user to enter two integers
+   and determine if the first number is a multiple of the second number.
+
+2. Write a program to prompt user to enter the lengths of three sides of a triangle.
+   Determine if these three lengths do indeed form a triangle.
+   Three lines can make up a triangle as long as every side is < sum of the other two sides.
+
+3. Play the guess the number game.  Your program randomly generates an integer 
+   between 0 and 100 (inclusively).  Prompts the user to guess what this number is
+   (letting the user know the range).  Give feedback on whether guess is right or wrong,
+   if wrong, keep guessing.
+
+4. Prompt user to enter their birthday, asking three questions: 
+   What's the day of the month for your birthday?
+   What's your birth month (in word, spelled in full)?
+   What's your birth year?
+   Find this birthday, in the format of 
+   [month as integer][day as integer][last 2 digits of year],
+   in the first million digits of Pi.
+   Print out which digits of pi this birthday is at, maybe neighbourhood of these digits.

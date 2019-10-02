@@ -1,0 +1,29 @@
+1. Create a Book class, with title and id;
+   constructor; methods to get and set the title.
+   Create a BookList class, using ArrayList<Book>.
+   constructor; methods to add and get book; toString().
+
+2. Write a program to calculate factorial(n), n! = n*(n-1)*(n-2)*...*2*1
+   Write a main method to call factorial n times to print the factorials from 1! to n!
+   Run it with factorial(30)
+
+3. Create a new class called Rational, has two instance variables, both ints: 
+   numerator, denominator.
+
+   Write a constructor that takes no arguments, numerator = 0, denominator = 1.
+   Write a second constructor that takes two ints and sets the num and denom to those.
+   Write a toString() method to print the fraction.
+
+   Write the modifier methods:
+     negate() - flips the sign of the Rational (numerator)
+     invert() - inverts the fraction
+     reduce() - reduces the fraction to its most reduced form so that
+                numerator and denominator have no common factors (except 1)
+	      - need to use gcd(a, b), greatest common divisor of two numbers a and b
+              - a > b, r = a % b -->  gcd(a, b) = gcd(b, r) = ... = gcd(b, 0)
+                --> b is the gcd
+   
+   Write the (non-modifier, pure function) methods:
+     toDouble() - returns the floating point value of the Rational object (fraction)
+     add() - returns the sum of two Rationals, as a Rational object
+   
